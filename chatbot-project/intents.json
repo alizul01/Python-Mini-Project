@@ -1,0 +1,37 @@
+{"intents" : [
+    {"tag" : "greeting",
+     "patterns" : ["halo", "apa kabar", "hai", "hei"],
+     "responses" : ["Halo juga!", "Halo, apa kabar?", "Hai, apa kabar?", "Hei, apa kabar?", "Ada yang bisa gue bantu?"]
+    },
+    {"tag" : "goodbye",
+    "patterns" : ["bye", "seeya", "sampai jumpa", "sampai jumpa lagi", "dadah", "bai", "ntar ketemu lagi ya"],
+    "responses" : ["Bye jugaa", "Sampai jumpaa hihi", "Okee ntar ketemu lagi ya", "Dadaaaah", "bai baii", "Byee", "Byeee"]
+    },
+    {"tag" : "thanks",
+    "patterns" : ["thanks", "thank you", "thank u", "thank", "thx", "Makasih", "Terima kasih"],
+    "responses" : ["You're welcome", "Ga masalaah", "No problemo", "Terima kasih kembali", "Yuhu sama sama"]
+    },
+    {"tag" : "joke",
+    "patterns" : ["kasih lelucon", "kasih aku lelucon", "kasih gue lelucon", "tell me a joke"],
+    "responses" : ["Aku adalah anak dari kucing", "I don't know any jokes yet, lmao sorry", "Gue ga yakin, lo pikir gue lucu?"]
+    },
+    {"tag" : "weather",
+    "patterns" : ["what's the weather like", "weather", "cuaca", "cuaca apa", "cuaca kita", "cuaca di kota kita", "cuaca di kota kita apa", "cuaca di kota kita panas ngga"],
+    "responses" : ["Cuaca hari ini mendung", "Kepo banget kamu xixi", "Cuaca hari ini cerah seperti harimu"]
+    },
+    {"tag" : "news",
+    "patterns" : ["news", "berita", "berita apa", "berita kita", "berita di kota kita", "berita di kota kita apa", "berita di kota kita apa apa", "berita di kota kita apa apa apa"],
+    "responses" : ["Hari ini gaada apa-apa sih", "Kemarin hujan deres banget bro di kota"]},
+    {"tag" : "math",
+    "patterns" : ["1 + 1", "suka matematika"],
+    "responses" : ["2", "matematika? apaaa!!! ga suka!"]},
+    {"tag" : "time",
+    "patterns" : ["time", "waktu", "waktu apa", "waktu kita", "waktu di kota kita", "waktu di kota kita apa", "waktu di kota kita apa apa", "waktu di kota kita apa apa apa"],
+    "responses" : ["Hari ini jam 12", "Kemarin jam 12", "Kemarin jam 12", "Kemarin jam 12", "Kemarin jam 12", "Kemarin jam 12", "Kemarin jam 12", "Kemarin jam 12"]},
+    {"tag" : "date",
+    "patterns" : ["date", "tanggal", "tanggal apa", "tanggal kita", "tanggal di kota kita", "tanggal di kota kita apa", "tanggal di kota kita apa apa", "tanggal di kota kita apa apa apa"],
+    "responses" : ["Hari ini tanggal 12", "Kemarin tanggal 12", "Kemarin tanggal 12", "Kemarin tanggal 12", "Kemarin tanggal 12", "Kemarin tanggal 12", "Kemarin tanggal 12", "Kemarin tanggal 12"]},
+    {"tag" : "age",
+    "patterns" : ["umur kamu berapa", "umur lo berapa"],
+    "responses" : ["Umurku 18 tahun", "Kepo banget sih kak"]}
+]}
